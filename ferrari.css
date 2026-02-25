@@ -1,0 +1,94 @@
+/* FERRARI CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #111;
+    border-bottom: 2px solid #c40000;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #ff1e1e;
+}
+
+.imagem {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.imagem img {
+    width: 80%;
+    max-width: 750px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+    transition: 0.4s ease;
+}
+
+.imagem img:hover {
+    transform: scale(1.03);
+}
+
+.conteudo {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.conteudo p {
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff1e1e;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.botao a {
+    text-decoration: none;
+    background: #ff1e1e;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao a:hover {
+    background: white;
+    color: #111;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .imagem img {
+        width: 95%;
+    }
+}
